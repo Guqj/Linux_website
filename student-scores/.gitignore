@@ -1,0 +1,130 @@
+# Laravel
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+# Environment
+.env
+.env.backup
+.env.production
+.env.local
+.env.testing
+
+# Logs
+/storage/logs/*.log
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.phpunit.cache
+.phpunit.result.cache
+tests/_output/
+tests/coverage/
+
+# IDE
+.idea
+.vscode
+/.fleet
+/.phpstorm.meta.php
+nbproject/
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+.metadata_never_index
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# PHP
+/.phpunit.cache
+
+# Build / Node
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Misc
+homestead.yaml
+homestead.json
+auth.json
+
+# Database
+database/database.sqlite
+
+# Cache
+bootstrap/cache/*.php
+.cache/
+.caches/
+
+# Session / Framework
+storage/framework/sessions/*
+storage/framework/views/*
+storage/framework/cache/*
+
+# Uploads
+public/uploads/*
+
+# Custom scripts
+deploy.php
+deploy.sh
+deploy.bat
+
+# Backup files
+*.bak
+*.backup
+*.swp
+*.swo
+*.zip
+*.tar.gz
+*.rar
+
+# Git
+.gitignore
+.gitattributes
+
+# Documentation
+docs/
+apidocs/
+
+# Composer
+composer.lock
+composer.phar
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Deployment
+deploy/
+deployment/
+releases/
+shared/
+
+# Local / environment configs
+config/local/
+config/development/
+config/production/
+
+# Temporary files
+tmp/
+temp/
