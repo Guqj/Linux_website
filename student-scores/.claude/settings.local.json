@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan *)",
+      "Bash(mysql *)",
+      "Bash(curl -s -X PUT http://127.0.0.1:8765/students/1 -H 'X-CSRF-TOKEN: IzJ2Pp6w7AAuj8jB6xfnuMr7mPl6J4lGrG47eNJ8' -H 'Accept: application/json' -H 'Content-Type: application/json' -d '{\"score\": 100}')",
+      "Bash(curl -s -X DELETE http://127.0.0.1:8765/students/9 -H 'X-CSRF-TOKEN: IzJ2Pp6w7AAuj8jB6xfnuMr7mPl6J4lGrG47eNJ8' -H 'Accept: application/json')",
+      "Bash(pkill -f \"php artisan serve\")"
+    ]
+  }
+}
